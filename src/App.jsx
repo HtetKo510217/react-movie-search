@@ -1,12 +1,13 @@
 import './assets/css/App.scss'
-import Movie from './components/Movie'
+import SearchMovies from './components/SearchMovies'
 
 function App() {
 
   return (
-    <>
-     <Movie />
-    </>
+    <div className="container">
+      <h1 className="title">React Movie Search</h1>
+      <SearchMovies/>
+    </div>
   )
 }
 
